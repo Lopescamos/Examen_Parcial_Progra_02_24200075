@@ -1,13 +1,37 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package modelo;
 
-/**
- *
- * @author lopez
- */
 public class GradoEstudioArreglo {
-    
+    private GradoEstudio[] grados;
+    private int indice;
+
+    public GradoEstudioArreglo(int tamanio) {
+        this.grados = new GradoEstudio[tamanio];
+        this.indice = 0;
+    }
+
+    public boolean add(GradoEstudio g) {
+        if (this.indice < this.grados.length) {
+            this.grados[this.indice] = g;
+            this.indice++;
+            return true;
+        }
+        return false;
+    }
+
+    public GradoEstudio[] getGrados() {
+        GradoEstudio[] result = new GradoEstudio[this.indice];
+        for (int i = 0; i < this.indice; i++) {
+            result[i] = this.grados[i];
+        }
+        return result;
+    }
+
+    public GradoEstudio getGrado(String descripcion) {
+        for (int i = 0; i < this.indice; i++) {
+            if (this.grados[i].getDescripcion().equalsIgnoreCase(descripcion)) {
+                return this.grados[i];
+            }
+        }
+        return null;
+    }
 }
