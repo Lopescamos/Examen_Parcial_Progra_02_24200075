@@ -54,16 +54,18 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                          <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
-                          <Component id="button1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
-                          <Component id="button2" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                  <Component id="button1" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="button2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="34" max="32767" attributes="0"/>
+                  <EmptySpace pref="30" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -73,18 +75,18 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" attributes="0">
-                          <Component id="label1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jPanel2" max="32767" attributes="0"/>
-                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="button1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                           <Component id="button2" min="-2" max="-2" attributes="0"/>
                       </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="label1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel2" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="button1" min="-2" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -92,8 +94,11 @@
       <SubComponents>
         <Component class="java.awt.Label" name="label1">
           <Properties>
-            <Property name="text" type="java.lang.String" value="label1"/>
+            <Property name="text" type="java.lang.String" value="LOGIN"/>
           </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleDescription" type="java.lang.String" value=""/>
+          </AccessibilityProperties>
         </Component>
         <Container class="javax.swing.JPanel" name="jPanel2">
 
@@ -102,21 +107,26 @@
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jPasswordField1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="label3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="textField1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="label2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="label3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="label2" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                      <Component id="button3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                               </Group>
+                              <EmptySpace min="0" pref="130" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
-                              <Component id="button3" min="-2" max="-2" attributes="0"/>
-                          </Group>
+                          <Component id="textField1" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jPasswordField1" alignment="1" max="32767" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="140" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -141,17 +151,17 @@
           <SubComponents>
             <Component class="java.awt.Label" name="label2">
               <Properties>
-                <Property name="text" type="java.lang.String" value="label2"/>
+                <Property name="text" type="java.lang.String" value="Gmail: "/>
               </Properties>
             </Component>
             <Component class="java.awt.TextField" name="textField1">
               <Properties>
-                <Property name="text" type="java.lang.String" value="textField1"/>
+                <Property name="text" type="java.lang.String" value="gmail"/>
               </Properties>
             </Component>
             <Component class="java.awt.Label" name="label3">
               <Properties>
-                <Property name="text" type="java.lang.String" value="label3"/>
+                <Property name="text" type="java.lang.String" value="Clave:"/>
               </Properties>
             </Component>
             <Component class="javax.swing.JPasswordField" name="jPasswordField1">
@@ -161,19 +171,19 @@
             </Component>
             <Component class="java.awt.Button" name="button3">
               <Properties>
-                <Property name="label" type="java.lang.String" value="button3"/>
+                <Property name="label" type="java.lang.String" value="Ingresar"/>
               </Properties>
             </Component>
           </SubComponents>
         </Container>
         <Component class="java.awt.Button" name="button1">
           <Properties>
-            <Property name="label" type="java.lang.String" value="button1"/>
+            <Property name="label" type="java.lang.String" value="Registrar empresa"/>
           </Properties>
         </Component>
         <Component class="java.awt.Button" name="button2">
           <Properties>
-            <Property name="label" type="java.lang.String" value="button2"/>
+            <Property name="label" type="java.lang.String" value="Registrasr postulante"/>
           </Properties>
         </Component>
       </SubComponents>
