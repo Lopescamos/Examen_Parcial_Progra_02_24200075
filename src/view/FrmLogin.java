@@ -17,6 +17,25 @@ public class FrmLogin extends javax.swing.JFrame {
         initComponents();
     }
 
+    public java.awt.Button getButton1() {
+        return button1;
+    }
+
+    public java.awt.Button getButton2() {
+        return button2;
+    }
+
+    public java.awt.Button getButton3() {
+        return button3;
+    }
+
+    public java.awt.TextField getTextField1() {
+        return textField1;
+    }
+
+    public javax.swing.JPasswordField getjPasswordField1() {
+        return jPasswordField1;
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
